@@ -1,9 +1,12 @@
 .header{
     background-color: rgb(84, 138, 238);
-    color: azure;
+    color: rgb(14, 15, 15);
     display: flex;
     justify-content: center;
     position: relative;
+}
+.fIcon{
+    color: #3d382a;
 }
 
 .headerContainer{
@@ -40,7 +43,7 @@
 }
 .headerSearch{
     height: 30px;
-    background-color: rgb(165, 206, 206);
+    background-color: rgb(255, 255, 255);
     border: 3px solid #febb02;
     display: flex;
     align-items: center;

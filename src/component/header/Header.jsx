@@ -44,23 +44,23 @@ function Header({type}) {
       <div className={type === "list" ? "headerContainer listMode" : "headerContainer"}>
         <div className="headerList">
           <div className="headerListItem active">
-            <FontAwesomeIcon icon={faBed} />
+            <FontAwesomeIcon icon={faBed} className="fIcon" />
             <span>Room</span>
           </div>
           <div className="headerListItem">
-            <FontAwesomeIcon icon={faCar} />
+            <FontAwesomeIcon icon={faCar} className="fIcon" />
             <span>Rent a Car</span>
           </div>
           <div className="headerListItem">
-            <FontAwesomeIcon icon={faTrain} />
+            <FontAwesomeIcon icon={faTrain} className="fIcon"/>
             <span>Train</span>
           </div>
           <div className="headerListItem">
-            <FontAwesomeIcon icon={faPlane} />
+            <FontAwesomeIcon icon={faPlane} className="fIcon"/>
             <span>Flight</span>
           </div>
           <div className="headerListItem">
-            <FontAwesomeIcon icon={faTaxi} />
+            <FontAwesomeIcon icon={faTaxi} className="fIcon"/>
             <span>Taxi</span>
           </div>
         </div>
